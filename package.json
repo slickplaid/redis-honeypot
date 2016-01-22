@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/slickplaid/node-honeypot/issues"
   },
-  "homepage": "https://github.com/slickplaid/node-honeypot#readme"
+  "homepage": "https://github.com/slickplaid/node-honeypot#readme",
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "double-ended-queue": "^2.1.0-0",
+    "ssh2": "^0.4.13"
+  }
 }
