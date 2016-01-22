@@ -1,0 +1,24 @@
+{
+  "name": "redis-honeypot",
+  "version": "1.0.0",
+  "description": "Acts like a fresh unsecured redis install to gather information about exploits being performed against the redis service.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slickplaid/node-honeypot.git"
+  },
+  "keywords": [
+    "redis",
+    "honeypot",
+    "exploit"
+  ],
+  "author": "Evan Johnson <evan@slicklabs.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slickplaid/node-honeypot/issues"
+  },
+  "homepage": "https://github.com/slickplaid/node-honeypot#readme"
+}
